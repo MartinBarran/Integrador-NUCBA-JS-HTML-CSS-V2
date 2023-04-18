@@ -18,21 +18,21 @@
 }
 
 @media (max-width: 850px) {
-  .cart-menu{   
+  #cart-menu{   
     width: 66%;
   }
 }     
   
   /* Celu */
   @media (max-width: 576px) {
-    .cart-menu{   
+    #cart-menu{   
       width: 75%;
     }
   }   
   
   
   @media (max-width: 450px) {
-    .cart-menu{   
+    #cart-menu{   
       width: 100%;
     }
 
