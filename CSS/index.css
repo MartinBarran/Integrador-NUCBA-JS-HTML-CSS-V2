@@ -268,6 +268,7 @@ nav{
 .section-title{
     width: 100%;
     padding-top: 20px;
+    padding-left: 20px;
     margin-left: 25px;
     color:var(--gris);
     /*text-shadow: 1px 1px 2px var(--violeta), 0 0 1em var(--rosa), 0 0 0.2em var(--violeta);*/
@@ -277,6 +278,8 @@ nav{
     width: 100%;
     padding-top: 20px;
     margin-left: 25px;
+    padding-left: 20px;
+
     color:var(--violeta);
    /*text-shadow: 1px 1px 2px var(--gris), 0 0 1em var(--rosa), 0 0 0.2em var(--violeta);*/
 
@@ -287,6 +290,7 @@ nav{
     font-size: 18px;
     line-height: 31.5px;
     margin:20px;
+    padding: 0px 20px;
 }
 .nosotros-txt, .nosotros-txt li{
     color: var(--gris);
@@ -405,11 +409,12 @@ font-weight: 600;
     margin-bottom: 20px;;
     border: 2px solid #4C184E;
 }
-.social-media{
+.socialmedia{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items:flex-start;
+    padding-left: 20px;
     
 }
 .contact-data{
@@ -460,6 +465,8 @@ font-weight: 600;
 }
 .filtro-txt{
     margin-left: 25px;
+    padding-left: 20px;
+
     margin-bottom: 0px;
     padding-top: 10px;
 }
