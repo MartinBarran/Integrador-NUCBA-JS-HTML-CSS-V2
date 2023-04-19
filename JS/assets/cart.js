@@ -56,12 +56,15 @@ const isAlreadyAdded = (prod) =>{
     <img src="${img}" class="added-img" alt="...">
     <div class="added-card-body">
       <div class="added-container1">
+      <div class="prod-title-and-type">
       <h4 class="added-card-title">${name}</h4>
+      <h7>${type}</h7>
+      </div>
       <div><i id="trash-icon" data-id='${id}' class="fa-regular fa-trash-can cart-container-icon"></i></div>
       </div>
       <div class="added-container1">
       <div>
-      <h7>${type}</h7>
+      
       <p class="card-text">$${cost}*${quantity}= $${cost*quantity}</p>
       </div>
       <div class="cart-item-count">

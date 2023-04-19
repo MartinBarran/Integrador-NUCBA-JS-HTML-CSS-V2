@@ -17,6 +17,11 @@
 
 }
 
+@media (min-width: 1200px) {
+  #cart-menu{   
+    width: 45%;
+  }
+}    
 @media (max-width: 850px) {
   #cart-menu{   
     width: 66%;
